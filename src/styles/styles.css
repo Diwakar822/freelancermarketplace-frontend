@@ -1,0 +1,982 @@
+.home-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .hero-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .hero-buttons {
+    margin-top: 20px;
+  }
+  
+  .hero-buttons .button {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #3399cc;
+    color: white;
+    border-radius: 5px;
+    margin: 0 10px;
+  }
+  
+  .hero-buttons .button:hover {
+    background-color: #2879a1;
+  }
+  
+  .hero-buttons .button-outline {
+    background-color: white;
+    color: #3399cc;
+    border: 1px solid #3399cc;
+  }
+  
+  .hero-buttons .button-outline:hover {
+    background-color: #f4f4f4;
+  }
+  
+  .jobs-section, .services-section {
+    margin: 30px 0;
+  }
+  
+  .jobs-section h2, .services-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .jobs-list, .services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .link {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #3399cc;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 30px;
+  }
+  
+
+
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-links {
+    margin: 10px 0;
+  }
+  
+  .footer-link {
+    color: #bbb;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .footer-link:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icon {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  
+  .social-icon:hover {
+    color: #3399cc;
+  }
+  
+  /* Icons */
+  .fab {
+    font-family: "Font Awesome 5 Brands";
+  }
+
+
+  /* navbar style */
+
+  /* Navbar Styles */
+.navbar {
+    background-color: #333;
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .navbar-logo {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding-left: 10px;
+  }
+  
+  .navbar-menu {
+    display: flex;
+    list-style: none;
+  }
+  
+  .navbar-item {
+    margin: 0 15px;
+  }
+  
+  .navbar-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar-link:hover {
+    background-color: #3399cc;
+    color: #fff;
+  }
+  
+  .navbar-auth {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-button {
+    background-color: #3399cc;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-button:hover {
+    background-color: #2879a1;
+  }
+  
+  .navbar-button-outline {
+    background-color: transparent;
+    color: #3399cc;
+    border: 2px solid #3399cc;
+  }
+  
+  .navbar-button-outline:hover {
+    background-color: #f4f4f4;
+  }
+
+  /* login page style */
+
+  /* Add this to styles.css at the end */
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    padding: 25px;
+  }
+  
+  .login-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .login-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-label {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .login-input {
+    padding: 20px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s;
+  }
+  
+  .login-input:focus {
+    border-color: #3399cc;
+    outline: none;
+  }
+  
+  .login-button {
+    background-color: #3399cc;
+    color: white;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-button:hover {
+    background-color: #2879a1;
+  }
+  
+  .login-link {
+    color: #3399cc;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  
+  .login-link:hover {
+    text-decoration: underline;
+  }
+
+  /* register form */
+
+  /* Register Page Styles */
+.register-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .register-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .register-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .register-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .register-label {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .register-input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s;
+  }
+  
+  .register-input:focus {
+    border-color: #3399cc;
+    outline: none;
+  }
+  
+  .register-button {
+    background-color: #3399cc;
+    color: white;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .register-button:hover {
+    background-color: #2879a1;
+  }
+  
+  .register-link {
+    color: #3399cc;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  
+  .register-link:hover {
+    text-decoration: underline;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .register-checkbox {
+    margin-right: 10px;
+  }
+  /* post job page */
+
+  /* Post Job Page Styles */
+.postjob-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .postjob-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .postjob-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .postjob-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .postjob-label {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .postjob-input,
+  .postjob-textarea,
+  .postjob-select {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s;
+  }
+  
+  .postjob-input:focus,
+  .postjob-textarea:focus,
+  .postjob-select:focus {
+    border-color: #3399cc;
+    outline: none;
+  }
+  
+  .postjob-textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .postjob-button {
+    background-color: #3399cc;
+    color: white;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .postjob-button:hover {
+    background-color: #2879a1;
+  }
+
+  /* freelancerDashbord */
+  /* Freelancer Dashboard Styles */
+.dashboard-page {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  .dashboard-header {
+    background-color: #3399cc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-header h2 {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .dashboard-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .dashboard-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1 1 calc(33% - 20px);
+    max-width: calc(33% - 20px);
+    min-width: 250px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .dashboard-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dashboard-card h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .dashboard-card p {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .dashboard-card .card-action {
+    margin-top: 10px;
+    text-align: right;
+  }
+  
+  .dashboard-card .action-button {
+    background-color: #3399cc;
+    color: white;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .dashboard-card .action-button:hover {
+    background-color: #2879a1;
+  }
+  
+  .dashboard-summary {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .summary-item {
+    background-color: #3399cc;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  .summary-item h4 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .summary-item p {
+    font-size: 0.9rem;
+    margin: 0;
+  }
+
+  /* client Dashboard */
+
+  /* Client Dashboard Styles */
+.client-dashboard-page {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  .client-dashboard-header {
+    background-color: #4caf50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .client-dashboard-header h2 {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .client-dashboard-summary {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .client-summary-item {
+    background-color: #4caf50;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  .client-summary-item h4 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .client-summary-item p {
+    font-size: 0.9rem;
+    margin: 0;
+  }
+  
+  .client-dashboard-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .client-dashboard-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1 1 calc(33% - 20px);
+    max-width: calc(33% - 20px);
+    min-width: 250px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .client-dashboard-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .client-dashboard-card h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .client-dashboard-card p {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .client-dashboard-card .card-action {
+    margin-top: 10px;
+    text-align: right;
+  }
+  
+  .client-dashboard-card .action-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .client-dashboard-card .action-button:hover {
+    background-color: #3e8e41;
+  }
+
+  /* Job Card Styles */
+.job-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 15px 0;
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.job-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.job-card-header h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 0;
+}
+
+.job-card-header .job-budget {
+  font-size: 1rem;
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.job-card-details {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.job-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-card-footer .tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.job-card-footer .tag {
+  background-color: #e0f7fa;
+  color: #00796b;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
+
+.job-card-footer .action-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.job-card-footer .button {
+  background-color: #3399cc;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.job-card-footer .button:hover {
+  background-color: #2879a1;
+}
+
+
+/* -------------------------------- profile page ----------------------------------- */
+
+/* General Container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Form Styles */
+.form {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.heading {
+  margin-bottom: 10px;
+  color: #555;
+  text-align: center;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.textarea {
+  display: block;
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Profiles Section */
+.profiles-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.profile-card {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-name {
+  margin: 0 0 10px;
+  font-size: 18px;
+  color: #007bff;
+}
+
+.profile-description {
+  margin: 0 0 10px;
+  color: #555;
+}
+
+/* -------------------- contract style ----------------------------------- */
+
+/* Body and general page style */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f7fa;
+}
+
+/* Container to center content */
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Heading style */
+h1 {
+  font-size: 2.5em;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form style */
+.form {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fafafa;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.form h2 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Label and input field styling */
+label {
+  font-size: 1em;
+  font-weight: 600;
+  color: #333;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+select.input {
+  cursor: pointer;
+}
+
+/* Button style */
+.btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Error message style */
+.error {
+  color: red;
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+/* Contract details table */
+.contract-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+  background-color: #fff;
+}
+
+.contract-table th,
+.contract-table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.contract-table th {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
+.contract-table td {
+  background-color: #fafafa;
+}
+
+.contract-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.contract-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+  
+  
+  
+  
+  
+  
